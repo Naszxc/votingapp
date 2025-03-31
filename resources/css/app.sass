@@ -1,0 +1,30 @@
+// Pages
+@use 'pages/authStyle'
+@use 'pages/adminPageStyle'
+@use 'pages/mainPageStyle'
+
+// Components
+@use 'components/addAlbumModal'
+@use 'components/SongListModal'
+
+body
+    font-family: Arial, sans-serif
+
+.header
+    display: flex 
+    justify-content: right 
+    height: 40px
+    cursor: pointer
+
+    a
+        background-color: rgba(0, 0, 0, 0.2)
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 5px
+        width: 100px
+        text-decoration: none
+        color: inherit
+
+        &:hover
+            background-color: rgba(0, 0, 0, 0.5)

@@ -1,0 +1,64 @@
+.overview-header
+    padding-top: 30px
+    text-align: center
+    font-size: 40px
+    margin-bottom: 40px
+
+.overview-album-btn
+    display: flex
+    justify-content: right
+
+.overview-btn
+    margin-right: 20px
+    cursor: pointer
+
+    &:hover
+        background-color: rgba(0, 0, 0, 0.1)
+        cursor: pointer
+
+.overview-album-list-container
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    gap: 10px
+
+.overview-album-list
+    width: 100%
+    margin-bottom: 3px 
+    border: 1px solid black
+    border-radius: 10px
+    opacity: 0
+    transform: translateY(-20px)
+    animation: fadeIn 0.5s ease-in-out forwards
+
+.overview-album-list-content
+    padding: 15px
+
+.overview-album-list-content-image
+    display: flex
+    justify-content: center
+    margin-bottom: 20px
+
+.overview-album-list-content-datails
+    div
+        margin-bottom: 15px
+
+.overview-paginate
+    display: flex
+    justify-content: center
+
+    .overview-paginate-left
+        margin-right: 10px 
+
+        &:hover
+            background-color: rgba(0, 0, 0, 0.1)
+            cursor: pointer
+
+    .overview-paginate-right
+        margin-left: 10px 
+
+        &:hover
+            background-color: rgba(0, 0, 0, 0.1)
+            cursor: pointer
+
+.overview-album-list-btn
+    cursor: pointer
